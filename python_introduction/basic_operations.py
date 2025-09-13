@@ -1,0 +1,5 @@
+number1 = int(10)
+number2 = int(5)
+print(number1 + number2)
+print(number1 - number2)
+print(number1 * number2)
