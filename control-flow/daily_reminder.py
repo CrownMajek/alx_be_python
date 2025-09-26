@@ -11,7 +11,7 @@ match priority:
         if time_bound == "yes":
             message += " Please handle it soon."
     case "low":
-        message = f"Remindeer: '{task}' is a low priority task."
+        message = f"Reminder: '{task}' is a low priority task."
         if time_bound == "yes":
             message += " No rush, but dont forget it."
     case _:
